@@ -1,0 +1,3 @@
+iSCO is a CO problem solver using sampling methods,which can be referenced from the paper:Revisiting Sampling for Combinatorial Optimization by Haoran Sun.In this repository,I try to reproduce the model,and apply it to solving NP hard problems like TSP,MIS and so on.The result indicates that it performs well when the size of nodes are less than 100,but shows inefficiency and inaccuracy when it's over 100.
+
+In conclusion,there's much that is not improved in this model yet,and because of the lack of official code,there's much limitation on how I can adjust the algorithm.

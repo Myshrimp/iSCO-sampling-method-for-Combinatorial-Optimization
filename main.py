@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import networkx as nx
 from tqdm import trange,tqdm
 from Models import TSP,MIS,Maxcut
-from ImportTSP import TSPDataLoader,MISDataLoader
+from Dataloader import TSPDataLoader,MISDataLoader
 from PAFS import PathAuxiliaryFastSampler
 log_g=lambda x:x/(x+1)
 #sampler=PathAuxiliarySampler(log_g=log_g)
